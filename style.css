@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    margin-top:25px;
+}
+.button{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+#grey{
+    background: grey;
+}
+#blue{
+    background: blue;
+}
+#black{
+    background: whitesmoke;
+}
+#orange{
+    background: orange;
+}
+#red{
+    background: red;
+}
+#green{
+    background: green;
+}
+/* Optional hover effect */
+.button:hover {
+    border-radius: 50%;
+    transition: 0.3s;
+}
+h2{
+    margin-bottom: 25px;
+}
